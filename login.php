@@ -46,7 +46,7 @@
                     <input type="submit" class="btn btn-submit" value="Register" />
                 </form>
                 <span>
-                    New to OnlineTickets? <a href="register.html">Sign Up</a>
+                    New to OnlineTickets? <a href="register.php">Sign Up</a>
                 </span>
             </div>
         </div>

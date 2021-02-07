@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 
 try{
     $pdo = new PDO("mysql:host=localhost;dbname=onlinetickets", "root", "");
@@ -6,4 +6,4 @@ try{
     die("Lidhja deshtoi");
 }
 
-?>
+?> -->

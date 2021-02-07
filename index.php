@@ -71,77 +71,8 @@
         </div>
     </section>
 
-    <!-- <section class="sliders">
-        <div class="container">
-            <img src="img/biznes.jpg" alt="business" id="slider">
-            <ul class="sliders__navigation">
-                <li onclick="imgSlider('img/eventi.jpg')"><img src="img/eventi.jpg" alt="event"></li>
-                <li onclick="imgSlider('img/koncert.jpg')"><img src="img/koncert.jpg" alt="event"></li>
-                <li onclick="imgSlider('img/biznes.jpg')"><img src="img/biznes.jpg" alt="event"></li>
-            </ul>
-        </div>
-    </section> -->
 
-    <section class="users slider pt-3 pb-3">
-        <div class="container">
-
-            <div class="slide current">
-                <div class="user grid">
-                    <div class="user__img">
-                        <img src="img/rinor.jpg" alt="rinor" id="slider">
-                    </div>
-                    <div class="user__text">
-                        <p class="pb-1">
-                            “I have tried all the major ticketing sites for my film festival and found Online Tickets to
-                            be
-                            head and shoulders above the competition. The site is exceptionally user-friendly.”</p>
-                        <h4 class="pb-min">Rinor Jahaj from University for Business and Technology</h4>
-                        <h4>Pristine, Kosovo</h4>
-                    </div>
-                </div>
-            </div>
-
-            <div class="slide">
-                <div class="user grid">
-                    <div class="user__img">
-                        <img src="img/shpetim.jpg" alt="rinor" id="slider">
-                    </div>
-                    <div class="user__text">
-                        <p class="pb-1">
-                            “I have tried all the major ticketing sites for my film festival and found Online Tickets to
-                            be
-                            head and shoulders ”</p>
-                        <h4 class="pb-min">Shpetim Buqa from University for Business and Technology</h4>
-                        <h4>Pristine, Kosovo</h4>
-                    </div>
-                </div>
-            </div>
-
-            <div class="slide">
-                <div class="user grid">
-                    <div class="user__img">
-                        <img src="img/arber.jpg" alt="rinor" id="slider">
-                    </div>
-                    <div class="user__text">
-                        <p class="pb-1">
-                            “I have tried all the major ticketing sites for my film festival and found Online Tickets to
-                            be
-                            head.”</p>
-                        <h4 class="pb-min">Arton Ramadani Jahaj from University for Business and Technology</h4>
-                        <h4>Pristine, Kosovo</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="buttons">
-                <button id="prev">
-                    <i class="fas fa-arrow-left"></i>
-                </button>
-                <button id="next">
-                    <i class="fas fa-arrow-right"></i>
-                </button>
-            </div>
-        </div>
-    </section>
+   <?php include 'includes/slider.php'?>
 
     <section class="party">
         <div class="container">
@@ -183,44 +114,8 @@
         </div>
     </section>
 
-    <footer class="footer">
-        <div class="footer-inner container grid pt-3 pb-3">
-            <div class="link__img">
-                <img src="img/logoUbt.png" alt="">
-            </div>
-            <ul>
-                <li>
-                    <h3>Navigate</h3>
-                </li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="events.html">Events</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="aboutUs.html">About Us</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Demo the product</a></li>
-            </ul>
-            <ul>
-                <li>
-                    <h3>Legal</h3>
-                </li>
-                <li><a href="#">Term of use</a></li>
-                <li><a href="#">Terms & conditions</a></li>
-                <li><a href="#">Privacy policy</a></li>
-                <li><a href="#">Cookie policy</a></li>
-            </ul>
-            <ul>
-                <li>
-                    <h3>Company</h3>
-                </li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">About OnlineTickets</a></li>
-                <li><a href="#">Company news</a></li>
-                <li><a href="#">Privacy at OnlineTickets</a></li>
-                <li><a href="#">Inverstors</a></li>
-            </ul>
-        </div>
-    </footer>
+    <?php include 'includes/footer.php'; ?>
+   
 
     <script src="main.js"></script>
     <script src="menu.js"></script>
